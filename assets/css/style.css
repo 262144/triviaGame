@@ -1,0 +1,56 @@
+body {
+	background-image: url(../images/background.jpg);
+	font-family: Comic Sans MS;
+}
+
+.answer:hover {
+ background-color: lime;
+ max-width: 450px;
+ margin-right: auto;
+ margin-left: auto;
+ font-weight: bold;
+ font-size: 25px;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+#president {
+	width: 90%;
+	margin-top: 10px;
+}
+
+.jumbotron {
+	max-height: 150px;
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+h3, .timerRow, .questionRow, #correctIncorrect, .jumbotron {
+	text-align: center;
+}
+
+#image, .column, .jumbotron, .row {
+	background-color: gold;
+}
+
+.jumbotron {
+	text-align: center;
+	font-weight: bold;
+	color: blue;
+}
+
+.questionRow {
+min-height: 0px;
+min-width: 0px;
+}
+
+.well {
+	background-image: -webkit-linear-gradient(#336666,
+#66cccc);
+}
+

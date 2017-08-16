@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game 1.0</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2" id="image">
+				<img id="president" src="">
+			</div>
+			<div class="col-xs-8 column">
+				<div class="jumbotron">
+					<h1 class="test">Presidential Trivia</h1>
+				</div><!--end of jumbotron-->
+			</div><!--end of column-->
+		</div><!--end of row-->
+
+		<div class="row timerRow">
+			<div class="col-xs-12 column">
+				<button type="button" class="btn btn-danger" id="start"><h2>START</h2></button>
+				<h3 id="timer">Time Remaining: <span id="timerCount">10</span> seconds</h3>
+			</div>
+		</div><!--end of row-->
+
+
+		<div class="row questionRow">
+			<div class="col-xs-12 column">
+		    	<h2 id="question"></h2>
+		    	<br>
+				<h3 class="answer" id="1"></h3>
+				<h3 class="answer" id="2"></h3>
+				<h3 class="answer" id="3"></h3>
+				<h3 class="answer" id="4"></h3>
+	  		</div><!--end of column-->
+		</div><!--end of row-->
+
+
+		<div class="row responseRow">
+			<div class="col-xs-12 column">
+				<h2 id="correctIncorrect"></h2>
+				<h3 id="interval"></h3>
+			</div><!--end of column-->
+		</div><!--end of row-->
+
+		<div class="row numbersRow well well-lg">
+			<div class="col-xs-4"><h3 id="numberCorrect"></h3></div>
+			<div class="col-xs-4"><h3 id="numberIncorrect"></h3></div>
+			<div class="col-xs-4"><h3 id="numberUnanswered"></h3></div>
+		</div><!--end of numbersRow-->
+	</div><!--end of container-->
+		
+
+
+
+
+	<script type="text/javascript" src="assets/javascript/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
