@@ -1,5 +1,6 @@
 body {
-	background-image: url(../images/background.jpg);
+	background-image: url(../images/background.gif);
+	background-position: center top;
 	font-family: Comic Sans MS;
 }
 
@@ -22,7 +23,7 @@ body {
 }
 
 .jumbotron {
-	max-height: 150px;
+	max-height: 200px;
 	text-align: center;
 }
 
